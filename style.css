@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(./images/bg-pattern-bottom.svg),
+    url(./images/bg-pattern-top.svg); 
+    background-position: top 375px right -290px, bottom 300px left -200px;
+    background-repeat: no-repeat;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+}
+
+main {
+    max-width: 360px;
+    background: white;
+    border-radius: 15px; 
+    box-shadow: 0px 0px 40px 20px rgba(0,0,0,0.1);
+    overflow: hidden;
+    margin: auto;
+    margin-top: 175px;
+}
+
+header {
+    background-image: url(./images/bg-pattern-card.svg);
+    background-size: cover;
+    height: 150px;
+    position: relative;
+}
+
+header .avatar {
+    background-image: url(./images/image-victor.jpg);
+    background-size: cover;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    display: inline-block;
+    height: 115px;
+    left: 50%;
+    bottom: -50px;
+    position: absolute;
+    transform: translate(-50%);
+    width: 115px;
+}
+
+h2 {
+    display: flex;  
+    font-size: 18px;
+    font-weight: 700;
+    justify-content: center;
+    margin-top: 80px;
+    text-align: center;
+}
+
+h2 .age {
+    color: hsl(0, 0%, 59%);
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+.location {
+    color: hsl(0, 0%, 59%);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+footer {
+    border-top: 1px solid rgb(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 6px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.col h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.col small {
+    color: hsl(0, 0%, 59%);
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
